@@ -5,7 +5,7 @@ from collections import OrderedDict, namedtuple
 
 SITE = {
     'root'          :   'https://www.allacronyms.com'
-    ,'search'       :   '/aa-searchme?f=h&q={keywords}&cat={icategory}'
+    ,'search'       :   '/{keywords}/{icategory}'
     ,'top_topics'   :   '/aa-topics'
     ,'random'       :   '/aa-random-term?nocache=1'
 }
